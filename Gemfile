@@ -8,3 +8,11 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+group :test do
+  gem 'rspec-rails'
+end
+
+group :development do
+  gem 'heroku'
+end
