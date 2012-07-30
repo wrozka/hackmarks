@@ -2,3 +2,5 @@
 /.bundle
 /log/*.log
 /tmp
+tags
+gems.tags
