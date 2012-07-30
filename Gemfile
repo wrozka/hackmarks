@@ -11,6 +11,10 @@ gem 'jquery-rails'
 
 group :test do
   gem 'rspec-rails'
+
+  gem 'guard-rspec'
+  gem 'guard-ctags-bundler'
+  gem 'libnotify'
 end
 
 group :development do
