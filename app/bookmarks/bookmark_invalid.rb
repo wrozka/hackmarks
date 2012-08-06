@@ -1,0 +1,2 @@
+class BookmarkInvalid < StandardError
+end
