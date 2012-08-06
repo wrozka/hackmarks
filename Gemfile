@@ -8,6 +8,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'dependor'
 
 group :test do
   gem 'rspec-rails'
@@ -15,6 +16,9 @@ group :test do
   gem 'guard-rspec'
   gem 'guard-ctags-bundler'
   gem 'libnotify'
+
+  gem 'capybara'
+  gem 'bogus'
 end
 
 group :development do
